@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INFO-4602/5602-Final-VisBuffs</title>
+  <link rel="icon" href="images/yelp-icon.ico">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+
+  <!-- project css -->
+  <link rel="stylesheet" href="css/main_style.css">
+
+</head>
+
+<body onload="main()">
+  <div id="shell" class="">
+    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> -->
+    <nav class="navbar navbar-expand-sm  fixed-top" style="padding-top: 0">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="images/yelp_logo.png" alt="logo" style="width:130px;">
+      </a>
+
+      <!-- Links -->
+      <ul class="navbar-nav ml-5">
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#story">STORY</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#goal">GOAL</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#design">DESIGN</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#vis_section_tag">VISUALIZATION</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#bestsplit">SPLIT</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#featureranking">FEATURE RANKING</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link" href="#dc_tree">TREE MODEL</a>
+        </li>
+
+      </ul>
+    </nav>
+    <!-- =======================Story============================= -->
+    <!-- project story section -->
+    <div class="" id="project_info">
+      <!-- please add sub-divs for each content -->
+      <!-- story -->
+      <div class="row nav_tp" id="story">
+        <div class="proInfo col-6">
+          <!-- <h1 class="text-center">Story</h1> -->
+          <img class="img-fluid" src="images/tag1_text.png">
+          <img class="img-fluid mt-5 pl-5" src="images/paragrah1.png">
+        </div>
+        <div class="col-6 text-right">
+          <img class="img-fluid mt-5 pr-5" src="images/food1.png" style="max-height:400px">
+        </div>
+      </div>
+
+      <!-- goal -->
+      <div class="row nav_tp" id="goal">
+        <div class="proInfo col-3">
+          <img class="img-fluid" src="images/food2.png" style="max-height:400px">
+        </div>
+        <div class="proInfo col-9">
+          <!-- <h1 class="text-center">Goal</h1> -->
+          <div class="text-right">
+            <img class="img-fluid" src="images/tag2_text.png">
+          </div>
+          <img class="img-fluid mt-5" src="images/paragraph_2.png">
+        </div>
+      </div>
+
+      <!-- design -->
+      <div class="row nav_tp" id="design">
+        <div class="proInfo col-5">
+          <!-- <h1 class="text-center">Story</h1> -->
+          <img class="img-fluid" src="images/tag3_text.png">
+          <img class="img-fluid mt-5 pl-5" src="images/paragraph_3.png">
+        </div>
+        <div class="col-7 text-right">
+          <img class="img-fluid mt-5 pr-5" src="images/sketch.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center nav_tp" id="vis_section_tag">
+      <!-- <img class="img-fluid" src="images/yelp-logo.png" style="max-height:100px"> -->
+      <h2 class="vis_title text-center">Visualizations</h2>
+    </div>
+    <hr>
+
+    <!-- =======================VIS============================= -->
+    <!-- project visualization section -->
+    <div class="container" id="project_vis">
+      <!-- please add sub-divs for each content -->
+
+      <div class="row">
+        <div class="col text-center">
+          <img class="img-fluid tt_img  img-thumbnail" src="images/tt1.png" data-toggle="modal" data-target="#vis1_Modal">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid tt_img img-thumbnail" src="images/tt2.png" data-toggle="modal" data-target="#vis2_Modal">
+        </div>
+
+        <div class="col text-center">
+          <img class="img-fluid tt_img img-thumbnail" src="images/tt3.png" data-toggle="modal" data-target="#vis3_Modal">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid tt_img img-thumbnail" src="images/tt4.png" data-toggle="modal" data-target="#vis4_Modal">
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <!-- vis1 modal -->
+    <div class="modal fade" id="vis1_Modal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content ">
+          <!-- Modal body -->
+          <div class="proVis" id="vis_1">
+            <h2 id="viss" class="vis_title text-center mb-5">Restaurant Category and Yelp Rating</h2>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- vis2 modal -->
+  <div class="modal fade" id="vis2_Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="proVis" id="vis_2">
+            <h2 class="vis_title text-center">US Yelp Rating Map</h2>
+
+            <div id="tooltip">
+
+            </div>
+            <!-- div to hold tooltip. -->
+            <svg width="960" height="600" id="statesvg"></svg>
+            <!-- svg to hold the map. -->
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- vis3 modal -->
+  <div class="modal fade" id="vis3_Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="proVis" id="vis_3">
+            <h2 class="vis_title text-center">Word Cloud from Yelp Reviews</h2>
+            <div class="" id="cloud">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- vis4 modal -->
+  <div class="modal fade" id="vis4_Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="proVis" id="vis_4">
+            <h2 class="vis_title text-center">Yelp User Friendship Network</h2>
+            <div class="text-center" id="network_vis">
+              <div id="vis4_tip">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+
+
+
+  <!-- =======================MODEL TREE============================= -->
+  <!-- prediction testing section -->
+  <div class="container " id="project_exam">
+    <!-- please add sub-divs for each content -->
+    <div class="bestsplit nav_tp" id="bestsplit">
+      <h2 class="vis_title text-center">Best Split</h2>
+      <div onload="main()">
+        <script src="js/d3v4.js"></script>
+        <script src="js/bestsplit.js"></script>
+        <table>
+          <tr>
+            <td>&nbsp;</td>
+            <td colspan=3>
+              <div class="figure-title">
+                Best split on user average star
+              </div>
+              <div class="figure-caption">
+                Drag the black threshold bars to change the cut-offs for user average stars.<br>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td width=180>&nbsp;</td>
+            <td valign="top">
+              <div class="big-label" style="margin-bottom:50px">Threshold Decision</div>
+              <div id="single-histogram0"></div>
+              <div id="single-histogram-legend0" class="histogram-legend"></div>
+            </td>
+
+            <td valign="top">
+              <div class="big-label" style="margin-bottom:20px;margin-left:10px">Outcome</div>
+              <div id="single-correct0"></div>
+              <div id="single-pies0"></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- feature ranking -->
+      <div id="featureranking" class="ranking text-center nav_tp">
+        <h2 class="vis_title text-center">Feature Ranking</h2>
+      </div>
+      <!-- decision tree -->
+      <div id="dc_tree" class="tree text-center nav_tp">
+        <h2 class="vis_title text-center">Tree Model</h2>
+        <p> </p>
+        <button type="button" class="btn btn-outline-danger tree_btn" onclick="dc_start()">Accuracy(click me)</button>
+        <!--<button type="button" class="btn btn-outline-danger tree_btn" onclick="dc_start()">Test Accuracy</button>-->
+        <p> </p>
+        <p> <small id="result">--</small> / <small id="total">--</small> </p>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+
+  </div>
+
+  <footer class=""> <img class="mt-5" src="images/new_footer.png" style="width:100%; max-height:160px; padding:2px"> </footer>
+
+  <!--bootstrap JavaScripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- project JavaScript -->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js" type="text/JavaScript"></script>
+  <script src="js/vis_1.js"></script>
+  <script src="js/uStates.js"></script>
+  <script src="js/vis_2.js"></script>
+  <script src="js/vis_3.js"></script>
+  <script src="js/vis_4.js"></script>
+  <script src="js/dc_tree.js"></script>
+  <script src="js/featureranking.js"></script>
+
+</body>
+
+</html>

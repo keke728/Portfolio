@@ -1,0 +1,101 @@
+body {
+  background-image: url("images/body_bg.jpg");
+}
+
+#shell {
+  background-color: white;
+}
+
+.jumbotron {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+#head_image {
+  max-height: 200px;
+}
+
+.vis {
+  padding-top: 60px;
+  margin-top: 10px;
+}
+
+.charts {
+  height: 500px;
+}
+
+.legend {
+  font-size: 13px;
+}
+
+.tooltip {
+  box-shadow: 0 0 5px #999999;
+  display: none;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  left: 130px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 80px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.8);
+  line-height: 140%x border-radius: 2px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.line {
+  fill: none;
+  stroke-width: 4px;
+}
+
+.hover-line {
+  stroke: grey;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1{
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h3{
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h4{
+ font-size: 16px;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h5{
+ font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h6{
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}

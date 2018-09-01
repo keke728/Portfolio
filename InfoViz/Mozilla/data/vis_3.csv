@@ -1,0 +1,191 @@
+country,item,value
+Price,France,0.221472737
+Features,France,0.117481731
+Safety,France,0.013115983
+Security,France,0.03264006
+Privacy,France,0.070526513
+Reliability,France,0.057485479
+User Reviews,France,0.012366498
+Expert Rec,France,0.017950159
+Friend or Family Rec,France,0.010267941
+Convenience,France,0.446692899
+Price,Italy,0.328711751
+Features,Italy,0.374146085
+Safety,Italy,0.037875419
+Security,Italy,0.010590566
+Privacy,Italy,0.027365698
+Reliability,Italy,0.092647237
+User Reviews,Italy,0.021908727
+Expert Rec,Italy,0.033307733
+Friend or Family Rec,Italy,0.010267189
+Convenience,Italy,0.063179595
+Price,Germany,0.260710727
+Features,Germany,0.318024387
+Safety,Germany,0.018598472
+Security,Germany,0.063007069
+Privacy,Germany,0.067324572
+Reliability,Germany,0.134554253
+User Reviews,Germany,0.027707928
+Expert Rec,Germany,0.044171372
+Friend or Family Rec,Germany,0.035156806
+Convenience,Germany,0.030744413
+Price,United States,0.280149192
+Features,United States,0.203066722
+Safety,United States,0.045171985
+Security,United States,0.110769049
+Privacy,United States,0.074595939
+Reliability,United States,0.120655971
+User Reviews,United States,0.039843704
+Expert Rec,United States,0.062932923
+Friend or Family Rec,United States,0.02764786
+Convenience,United States,0.035166657
+Price,Brazil,0.403420241
+Features,Brazil,0.289599103
+Safety,Brazil,0.016727409
+Security,Brazil,0.061022334
+Privacy,Brazil,0.032239978
+Reliability,Brazil,0.075320064
+User Reviews,Brazil,0.019437436
+Expert Rec,Brazil,0.033454817
+Friend or Family Rec,Brazil,0.017568452
+Convenience,Brazil,0.051210167
+Price,Mexico,0.374117232
+Features,Mexico,0.342867232
+Safety,Mexico,0.058968927
+Security,Mexico,0.029131356
+Privacy,Mexico,0.024364407
+Reliability,Mexico,0.02065678
+User Reviews,Mexico,0.018891243
+Expert Rec,Mexico,0.044491525
+Friend or Family Rec,Mexico,0.012182203
+Convenience,Mexico,0.074329096
+Price,Spain,0.283480765
+Features,Spain,0.295412467
+Safety,Spain,0.054721251
+Security,Spain,0.027360625
+Privacy,Spain,0.035589385
+Reliability,Spain,0.023040527
+User Reviews,Spain,0.023451965
+Expert Rec,Spain,0.041555236
+Friend or Family Rec,Spain,0.019131866
+Convenience,Spain,0.196255914
+Price,United Kingdom,0.255606407
+Features,United Kingdom,0.228146453
+Safety,United Kingdom,0.046224256
+Security,United Kingdom,0.110983982
+Privacy,United Kingdom,0.061556064
+Reliability,United Kingdom,0.11784897
+User Reviews,United Kingdom,0.045537757
+Expert Rec,United Kingdom,0.068878719
+Friend or Family Rec,United Kingdom,0.023798627
+Convenience,United Kingdom,0.041418764
+Price,Canada,0.267416935
+Features,Canada,0.181404073
+Safety,Canada,0.040192926
+Security,Canada,0.084137192
+Privacy,Canada,0.076366559
+Reliability,Canada,0.113612004
+User Reviews,Canada,0.030278671
+Expert Rec,Canada,0.055198285
+Friend or Family Rec,Canada,0.026259378
+Convenience,Canada,0.125133976
+Price,Switzerland,0.176433522
+Features,Switzerland,0.275362319
+Safety,Switzerland,0.025519849
+Security,Switzerland,0.048834279
+Privacy,Switzerland,0.072148708
+Reliability,Switzerland,0.120352867
+User Reviews,Switzerland,0.021109011
+Expert Rec,Switzerland,0.037492124
+Friend or Family Rec,Switzerland,0.030560807
+Convenience,Switzerland,0.192186515
+Price,India,0.351572739
+Features,India,0.276867628
+Safety,India,0.065858453
+Security,India,0.071756225
+Privacy,India,0.052096986
+Reliability,India,0.060943644
+User Reviews,India,0.023591088
+Expert Rec,India,0.032437746
+Friend or Family Rec,India,0.016710354
+Convenience,India,0.048165138
+Price,Argentina,0.332177264
+Features,Argentina,0.328323699
+Safety,Argentina,0.04894027
+Security,Argentina,0.026204239
+Privacy,Argentina,0.029287091
+Reliability,Argentina,0.026589595
+User Reviews,Argentina,0.023506744
+Expert Rec,Argentina,0.046628131
+Friend or Family Rec,Argentina,0.020809249
+Convenience,Argentina,0.117533719
+Price,Belgium,0.221495327
+Features,Belgium,0.135046729
+Safety,Belgium,0.019158879
+Security,Belgium,0.032242991
+Privacy,Belgium,0.074299065
+Reliability,Belgium,0.071028037
+User Reviews,Belgium,0.013084112
+Expert Rec,Belgium,0.024766355
+Friend or Family Rec,Belgium,0.012149533
+Convenience,Belgium,0.396728972
+Price,Australia,0.243486499
+Features,Australia,0.214590242
+Safety,Australia,0.043581241
+Security,Australia,0.094268119
+Privacy,Australia,0.063003316
+Reliability,Australia,0.136901942
+User Reviews,Australia,0.056845097
+Expert Rec,Australia,0.071056371
+Friend or Family Rec,Australia,0.028896258
+Convenience,Australia,0.047370914
+Price,Colombia,0.376919005
+Features,Colombia,0.312863949
+Safety,Colombia,0.065113817
+Security,Colombia,0.025939651
+Privacy,Colombia,0.026469031
+Reliability,Colombia,0.019587083
+User Reviews,Colombia,0.01694018
+Expert Rec,Colombia,0.04235045
+Friend or Family Rec,Colombia,0.012705135
+Convenience,Colombia,0.101111699
+Price,Austria,0.232749179
+Features,Austria,0.353778751
+Safety,Austria,0.018619934
+Security,Austria,0.055859803
+Privacy,Austria,0.061336254
+Reliability,Austria,0.146221249
+User Reviews,Austria,0.029572837
+Expert Rec,Austria,0.043263965
+Friend or Family Rec,Austria,0.026286966
+Convenience,Austria,0.032311062
+Price,Chile,0.351284176
+Features,Chile,0.336371168
+Safety,Chile,0.051367026
+Security,Chile,0.033968517
+Privacy,Chile,0.026512013
+Reliability,Chile,0.027340514
+User Reviews,Chile,0.029826015
+Expert Rec,Chile,0.047224524
+Friend or Family Rec,Chile,0.014913007
+Convenience,Chile,0.081193041
+Price,Venezuela,0.484201537
+Features,Venezuela,0.233134073
+Safety,Venezuela,0.064047822
+Security,Venezuela,0.020495303
+Privacy,Venezuela,0.023911187
+Reliability,Venezuela,0.019641332
+User Reviews,Venezuela,0.013663535
+Expert Rec,Venezuela,0.040136635
+Friend or Family Rec,Venezuela,0.010247652
+Convenience,Venezuela,0.090520922
+Price,Ecuador,0.416921509
+Features,Ecuador,0.249745158
+Safety,Ecuador,0.074413863
+Security,Ecuador,0.04077472
+Privacy,Ecuador,0.03058104
+Reliability,Ecuador,0.018348624
+User Reviews,Ecuador,0.014271152
+Expert Rec,Ecuador,0.0509684
+Friend or Family Rec,Ecuador,0.026503568
+Convenience,Ecuador,0.077471967

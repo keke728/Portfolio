@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 3</title>
+  <link rel="icon" href="img/favicon.png">
+
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- project css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/world_map.css">
+  <link rel="stylesheet" type="text/css" href="css/vis_2.css" />
+</head>
+
+<body>
+  <div id="shell">
+    <!-- head section -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <h1 class="text-light mb-5">INFO-4602/5602 Project 3</h1>
+            <p class="text-warning small">This project explores Mozilla survey dataset, which collected people's perceptions towards a highly connected world. All of our four visualizations focus on discovering how people's technical level or geolocation influence their perceptions
+              about technology. </p>
+          </div>
+          <div class="col-3 text-right">
+            <img class="img-fluid img-thumbnail img1" src="img/Edge-Analytics-Market.jpg" alt="fail"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top pl-5">
+      <a class="navbar-brand ml-4" href="#">Mozilla Survey</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#bg1">Global Tech Level</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bg2">Future Concern by Tech Level and Region</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bg3">Tech Toy Purchase Factors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bg4">Tech Level and Perceptions</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Visualization #1 -->
+    <div id="bg1">
+      <div class="container visDiv text-center">
+        <h2 class="text-center">Worldwide Technology Level</h2>
+
+        <div class="text-right mb-5">
+          <label for="#v1_data_select">Tech Level:</label>
+          <select id="v1_data_select" onchange="v1DataChange()">
+            <option value="UltraNerdRatio" selected="selected">Ultra Nerd</option>
+            <option value="TechnicallySavvyRatio">Technically Savvy</option>
+            <option value="AverageUserRatio">Average User</option>
+            <option value="LudditeRatio">Luddite</option>
+          </select>
+        </div>
+
+        <div id="vis_1">
+          <div id="vis_1_donut">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Visualization #2 -->
+    <div id="bg2" class="bipartite">
+      <div class="container visDiv">
+        <h2 class="text-center">Future Concern by Tech Level and Region</h2>
+        <div id="vis2_chart">
+
+          <div id="skills">
+            <div id="skillmap">
+              <div class="skills-wrapper">
+                <div class="skills-sunburst"></div>
+                <div class="skills-chart">
+                  <div id="skills-chart-breadcrumb"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <!-- Visualization #3 -->
+    <div id="bg3">
+      <div class="container visDiv">
+        <h2 class="text-center">World Location and Buying Behavior</h2>
+        <div id="vis3_chart">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Visualization #4 -->
+    <div id="bg4" class="bipartite">
+      <div class="container visDiv">
+        <h2 class="text-center">Technology Level and Perceptions</h2>
+        <div id="vis4_chart">
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <footer class="last">
+    <p class="text-center">Posted by: Team 1</p>
+    <p class="text-center"><span class="mr-5">Jiawen Liu</span><span class="mr-5">Keke Wu</span><span class="mr-5">Wei Miao</span><span class="mr-5">Xu Han</span><span class="mr-5">Yawen Zhang</span> </p>
+  </footer>
+
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- d3.js -->
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="js/d3v3.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+
+  <!-- world_map js -->
+  <script src="js/world_map.js"></script>
+
+
+  <!-- bipartite.js -->
+  <script type="text/javascript" src="js/biPartite.js"></script>
+
+  <!-- Visualization scripts -->
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/vis_1.js"></script>
+  <script type="text/javascript" src="js/data.js"></script>
+  <script type="text/javascript" src="js/vis_2.js"></script>
+  <script type="text/javascript" src="js/vis_3.js"></script>
+  <script type="text/javascript" src="js/vis_4.js"></script>
+
+</body>
+
+</html>

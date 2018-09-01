@@ -1,0 +1,110 @@
+.jumbotron {
+  margin-bottom: 0;
+  background-image: url("../img/head_bg.jpg");
+  background-size: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 25px;
+}
+
+.visDiv {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 40px;
+}
+
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+
+#bg1 {
+  padding: 2%;
+  background-color: #66a3ff;
+}
+
+#bg2 {
+  padding: 2%;
+  background-color: #a3c2c2;
+}
+
+#bg3 {
+  padding: 2%;
+  background-color: #560a5e;
+}
+
+#bg4 {
+  padding: 2%;
+  background-color: #2B6C7F;
+}
+
+.img1 {
+  max-height: 200px;
+}
+
+.last {
+  background-color: #063340;
+  color: white;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h5 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h6 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#vis_1 {
+  position: relative;
+}
+
+#vis_1_donut {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+}
