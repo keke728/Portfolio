@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E180599987E7610936A72BE /* Pods_Happy_Ivy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C518996F07302399EAC9A8B7 /* Pods_Happy_Ivy.framework */; };
+		A00FF6F120538F0800772DD0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00FF6F020538F0800772DD0 /* MoreViewController.swift */; };
+		A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A5B28204D963C008BCC76 /* AddToListViewController.swift */; };
+		A069735A205106A7001041C0 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0697359205106A7001041C0 /* CustomNavController.swift */; };
+		A069735C20510BE3001041C0 /* AveriaSansLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */; };
+		A069735F2052E787001041C0 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069735E2052E787001041C0 /* CustomTabBarController.swift */; };
+		A07B8731205444B200F492A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B8730205444B200F492A4 /* HomeViewController.swift */; };
+		A07B873320544FE100F492A4 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B873220544FE100F492A4 /* NameViewController.swift */; };
+		A07B8735205455E400F492A4 /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B8734205455E400F492A4 /* PlantViewController.swift */; };
+		A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */; };
+		A0BC5D2E204A53BE00FE0C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */; };
+		A0BC5D33204A53BE00FE0C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */; };
+		A0BC5D3B204B905100FE0C26 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D3A204B905100FE0C26 /* ToDoViewController.swift */; };
+		A0BC5D3D204B905F00FE0C26 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D3C204B905F00FE0C26 /* GoalsViewController.swift */; };
+		A0BC5D3F204B907D00FE0C26 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D3E204B907D00FE0C26 /* StatusViewController.swift */; };
+		A0BC5D41204B909C00FE0C26 /* ShelvesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */; };
+		A0BC5D45204BB02D00FE0C26 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */; };
+		A0BC5D47204BB7D600FE0C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BC5D46204BB7D600FE0C26 /* Assets.xcassets */; };
+		A0DEF3D2205704990087815C /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF3D1205704990087815C /* ToDoList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30633B348BABA683040CB6AD /* Pods-Happy Ivy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Ivy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy.release.xcconfig"; sourceTree = "<group>"; };
+		867A96894120B8431A47D43E /* Pods-Happy Ivy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Ivy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy.debug.xcconfig"; sourceTree = "<group>"; };
+		A00FF6F020538F0800772DD0 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		A04A5B28204D963C008BCC76 /* AddToListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListViewController.swift; sourceTree = "<group>"; };
+		A0697359205106A7001041C0 /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
+		A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSansLibre-Regular.ttf"; sourceTree = "<group>"; };
+		A069735E2052E787001041C0 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		A07B8730205444B200F492A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A07B873220544FE100F492A4 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		A07B8734205455E400F492A4 /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
+		A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Ivy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0BC5D2D204A53BE00FE0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0BC5D32204A53BE00FE0C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0BC5D34204A53BE00FE0C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BC5D3A204B905100FE0C26 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		A0BC5D3C204B905F00FE0C26 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A0BC5D3E204B907D00FE0C26 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelvesViewController.swift; sourceTree = "<group>"; };
+		A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		A0BC5D46204BB7D600FE0C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0DEF3D1205704990087815C /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		C518996F07302399EAC9A8B7 /* Pods_Happy_Ivy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy_Ivy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0BC5D22204A53BE00FE0C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E180599987E7610936A72BE /* Pods_Happy_Ivy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497A66141DEAFD8FB99ADB4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C518996F07302399EAC9A8B7 /* Pods_Happy_Ivy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E8BFAADBB57C6594D412E9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				867A96894120B8431A47D43E /* Pods-Happy Ivy.debug.xcconfig */,
+				30633B348BABA683040CB6AD /* Pods-Happy Ivy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A069735D20510BFB001041C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A069735B20510BE3001041C0 /* AveriaSansLibre-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A0BC5D1C204A53BE00FE0C26 = {
+			isa = PBXGroup;
+			children = (
+				A0BC5D27204A53BE00FE0C26 /* Happy Ivy */,
+				A0BC5D26204A53BE00FE0C26 /* Products */,
+				7E8BFAADBB57C6594D412E9B /* Pods */,
+				497A66141DEAFD8FB99ADB4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0BC5D26204A53BE00FE0C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0BC5D27204A53BE00FE0C26 /* Happy Ivy */ = {
+			isa = PBXGroup;
+			children = (
+				A0DEF3D3205747000087815C /* Model */,
+				A0DEF3D4205747AB0087815C /* View Controllers */,
+				A0BC5D28204A53BE00FE0C26 /* AppDelegate.swift */,
+				A0BC5D44204BB02D00FE0C26 /* CustomCollectionViewCell.swift */,
+				A0697359205106A7001041C0 /* CustomNavController.swift */,
+				A069735E2052E787001041C0 /* CustomTabBarController.swift */,
+				A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */,
+				A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */,
+				A0BC5D34204A53BE00FE0C26 /* Info.plist */,
+				A0BC5D46204BB7D600FE0C26 /* Assets.xcassets */,
+				A069735D20510BFB001041C0 /* Fonts */,
+			);
+			path = "Happy Ivy";
+			sourceTree = "<group>";
+		};
+		A0DEF3D3205747000087815C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0DEF3D1205704990087815C /* ToDoList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0DEF3D4205747AB0087815C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A07B8730205444B200F492A4 /* HomeViewController.swift */,
+				A07B873220544FE100F492A4 /* NameViewController.swift */,
+				A07B8734205455E400F492A4 /* PlantViewController.swift */,
+				A04A5B28204D963C008BCC76 /* AddToListViewController.swift */,
+				A0BC5D3A204B905100FE0C26 /* ToDoViewController.swift */,
+				A0BC5D3C204B905F00FE0C26 /* GoalsViewController.swift */,
+				A0BC5D3E204B907D00FE0C26 /* StatusViewController.swift */,
+				A0BC5D40204B909C00FE0C26 /* ShelvesViewController.swift */,
+				A00FF6F020538F0800772DD0 /* MoreViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0BC5D24204A53BE00FE0C26 /* Happy Ivy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BC5D37204A53BE00FE0C26 /* Build configuration list for PBXNativeTarget "Happy Ivy" */;
+			buildPhases = (
+				359C779CB99620E489EFC851 /* [CP] Check Pods Manifest.lock */,
+				A0BC5D21204A53BE00FE0C26 /* Sources */,
+				A0BC5D22204A53BE00FE0C26 /* Frameworks */,
+				A0BC5D23204A53BE00FE0C26 /* Resources */,
+				682F86D40CEF38DF43775B73 /* [CP] Embed Pods Frameworks */,
+				4565D319D8435FCB15080D29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Ivy";
+			productName = "Happy Ivy";
+			productReference = A0BC5D25204A53BE00FE0C26 /* Happy Ivy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0BC5D1D204A53BE00FE0C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Keke Wu";
+				TargetAttributes = {
+					A0BC5D24204A53BE00FE0C26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A0BC5D20204A53BE00FE0C26 /* Build configuration list for PBXProject "Happy Ivy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0BC5D1C204A53BE00FE0C26;
+			productRefGroup = A0BC5D26204A53BE00FE0C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0BC5D24204A53BE00FE0C26 /* Happy Ivy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0BC5D23204A53BE00FE0C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC5D33204A53BE00FE0C26 /* LaunchScreen.storyboard in Resources */,
+				A069735C20510BE3001041C0 /* AveriaSansLibre-Regular.ttf in Resources */,
+				A0BC5D47204BB7D600FE0C26 /* Assets.xcassets in Resources */,
+				A0BC5D2E204A53BE00FE0C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359C779CB99620E489EFC851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Happy Ivy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4565D319D8435FCB15080D29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682F86D40CEF38DF43775B73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Ivy/Pods-Happy Ivy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0BC5D21204A53BE00FE0C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A069735A205106A7001041C0 /* CustomNavController.swift in Sources */,
+				A0BC5D41204B909C00FE0C26 /* ShelvesViewController.swift in Sources */,
+				A04A5B29204D963C008BCC76 /* AddToListViewController.swift in Sources */,
+				A0BC5D45204BB02D00FE0C26 /* CustomCollectionViewCell.swift in Sources */,
+				A0BC5D3D204B905F00FE0C26 /* GoalsViewController.swift in Sources */,
+				A07B8735205455E400F492A4 /* PlantViewController.swift in Sources */,
+				A00FF6F120538F0800772DD0 /* MoreViewController.swift in Sources */,
+				A0DEF3D2205704990087815C /* ToDoList.swift in Sources */,
+				A0BC5D3B204B905100FE0C26 /* ToDoViewController.swift in Sources */,
+				A07B8731205444B200F492A4 /* HomeViewController.swift in Sources */,
+				A0BC5D29204A53BE00FE0C26 /* AppDelegate.swift in Sources */,
+				A069735F2052E787001041C0 /* CustomTabBarController.swift in Sources */,
+				A0BC5D3F204B907D00FE0C26 /* StatusViewController.swift in Sources */,
+				A07B873320544FE100F492A4 /* NameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0BC5D2C204A53BE00FE0C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BC5D2D204A53BE00FE0C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0BC5D31204A53BE00FE0C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BC5D32204A53BE00FE0C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0BC5D35204A53BE00FE0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0BC5D36204A53BE00FE0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0BC5D38204A53BE00FE0C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867A96894120B8431A47D43E /* Pods-Happy Ivy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH49DT66HG;
+				INFOPLIST_FILE = "Happy Ivy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coco.Happy-Ivy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0BC5D39204A53BE00FE0C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30633B348BABA683040CB6AD /* Pods-Happy Ivy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GH49DT66HG;
+				INFOPLIST_FILE = "Happy Ivy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coco.Happy-Ivy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0BC5D20204A53BE00FE0C26 /* Build configuration list for PBXProject "Happy Ivy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BC5D35204A53BE00FE0C26 /* Debug */,
+				A0BC5D36204A53BE00FE0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BC5D37204A53BE00FE0C26 /* Build configuration list for PBXNativeTarget "Happy Ivy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BC5D38204A53BE00FE0C26 /* Debug */,
+				A0BC5D39204A53BE00FE0C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0BC5D1D204A53BE00FE0C26 /* Project object */;
+}
